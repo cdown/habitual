@@ -43,7 +43,7 @@ def parse_args():
 def main():
     args = parse_args()
 
-    with open(os.path.expanduser("~/.config/habits/habits")) as f:
+    with open(os.path.expanduser("~/.config/habitual/habitual")) as f:
         for line in f:
             raw_schedule, name = line.strip().split("|", 1)
             ct = crontab.CronTab(raw_schedule)
