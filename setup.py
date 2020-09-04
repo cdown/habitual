@@ -19,7 +19,7 @@ setup(
     author="Chris Down",
     author_email="chris@chrisdown.name",
     py_modules=["habitual"],
-    entry_points={"console_scripts": ["wtb=habitual:main"]},
+    entry_points={"console_scripts": ["habitual=habitual:main"]},
     keywords="cron habit tracking schedule",
     classifiers=[
         "Development Status :: 5 - Production/Stable",
