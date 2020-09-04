@@ -23,8 +23,8 @@ For example, here’s how someone’s reminders might look:
 
 ::
 
-   0 0 10-20 ? * * *|Drink water
-   0 0 1 ? * * *|Start winding down
+   0 11-20 * * *|Drink water
+   0 1 * * *|Time to wind down
 
 .. _Pushbullet: https://www.pushbullet.com/
 .. _Pushover: https://pushover.net/
