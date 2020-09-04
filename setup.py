@@ -11,7 +11,7 @@ with open("requirements.txt") as requirements_f:
 
 setup(
     name="habitual",
-    version="0.1.0",
+    version="0.1.1",
     description="Send notifications for things on a fixed, repeated schedule",
     long_description=README,
     url="https://github.com/cdown/habitual",
